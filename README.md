@@ -7,21 +7,12 @@ This project automates the process of retrieving a PDF file from SharePoint, ext
 Before running the script, ensure you have the following dependencies installed:
 
 - Python 3.10+
-- requests
-- requests_ntlm
-- PyPDF2
-- openai
-- phi
+- `requests`
+- `requests_ntlm`
+- `PyPDF2`
+- `openai`
+- `phi`
 
-# Personal Info
+# User Input
 
-You need to configure the script with your personal credentials and SharePoint details. Here's an example.
-
-- receiver_email = "recipient@example.com"
-- sender_email = "sender@example.com"
-- sender_name = "Sender Name"
-- sender_passkey = "your-email-passkey"
-- sharepoint_url = "https://your-sharepoint-url"
-- username = "your-sharepoint-username"
-- password = "your-sharepoint-password"
-- openai.api_key = "your-openai-api-key"
+You need to configure the script with your personal credentials and SharePoint details. Also set your OpenAI API key in the script where indicated.
