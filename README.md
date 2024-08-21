@@ -15,13 +15,13 @@ Before running the script, ensure you have the following dependencies installed:
 
 # Personal Info
 
-You need to configure the script with your personal credentials and SharePoint details
+You need to configure the script with your personal credentials and SharePoint details. Here's an example.
 
-receiver_email = "recipient@example.com"
-sender_email = "sender@example.com"
-sender_name = "Sender Name"
-sender_passkey = "your-email-passkey"
-sharepoint_url = "https://your-sharepoint-url"
-username = "your-sharepoint-username"
-password = "your-sharepoint-password"
-openai.api_key = "your-openai-api-key"
+- receiver_email = "recipient@example.com"
+- sender_email = "sender@example.com"
+- sender_name = "Sender Name"
+- sender_passkey = "your-email-passkey"
+- sharepoint_url = "https://your-sharepoint-url"
+- username = "your-sharepoint-username"
+- password = "your-sharepoint-password"
+- openai.api_key = "your-openai-api-key"
